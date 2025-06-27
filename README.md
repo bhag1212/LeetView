@@ -47,5 +47,4 @@ This web application includes following features
 3. Open `index.html` in your browser.
 4. Enter a LeetCode username and click **Search**.
 
-## 🧑‍💻 Author
-**Bhagyashree L** 
+
