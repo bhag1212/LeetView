@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded',function(){
             searchButton.textContent = "Searching...";
             searchButton.disabled = true;
 
-            const url = `https://leetcode-stats-api.herokuapp.com/${username}`;
+            const url = `https://leetcode-api-faisalshohag.vercel.app/${username}`;
             const response = await fetch(url);
 
             if (!response.ok) {
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded',function(){
             { label: "Medium Problems Solved", value: solvedMedium },
             { label: "Hard Problems Solved", value: solvedHard },
             { label: "Ranking", value: data.ranking },
-            { label: "Contribution Points", value: data.contributionPoints }
+            { label: "Contribution Points", value: data.contributionPoint }
         ];
 
         cardStatsContainer.innerHTML = cardsData
